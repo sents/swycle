@@ -7,4 +7,4 @@ edition = "2018"
 
 [dependencies]
 swayipc = "3.0.0-alpha.3"
-clap = "3.0.0-beta.2"
+clap = "3.0.0-beta.5"

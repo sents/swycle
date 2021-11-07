@@ -1,5 +1,5 @@
 use swayipc::{Connection, Fallible};
-use clap::Clap;
+use clap::Parser;
 
 #[derive(Debug)]
 enum Action {
@@ -47,7 +47,7 @@ impl std::str::FromStr for Direction {
 }
 
 
-#[derive(Clap, Debug)]
+#[derive(Parser, Debug)]
 #[clap(name = "swaycycle")]
 struct Opts {
     #[clap(short, long, default_value = "3")]
