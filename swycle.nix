@@ -19,7 +19,7 @@ rustPlatform.buildRustPackage rec {
   meta = with lib; {
     description = "Change sway workspaces on a cyclic 2D plane";
     homepage = "https://github.com/sents/swycle";
-    license = licenses.agpl3;
+    license = licenses.agpl3Plus;
     mainProgram = "swycle";
     maintainers = [ {
       email = "finn@krein.moe";
